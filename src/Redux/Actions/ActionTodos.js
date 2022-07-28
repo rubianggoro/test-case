@@ -25,7 +25,6 @@ export const getDataFailed = (error) => {
 };
 
 export const getTodos = () => {
-	console.log("get masuk")
   return (dispatch) => {
     dispatch(getDataBegin());
 
